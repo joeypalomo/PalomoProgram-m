@@ -1,0 +1,13 @@
+{
+  "name": "palomoprogram",
+  "version": "1.0.0",
+  "description": "Teddie's daily training system. Puppy Foundations, 10-16 weeks. Mobile-first PWA.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server -p 8080 -c-1 .",
+    "build:single": "node scripts/build-single.mjs",
+    "icons": "node scripts/icons.mjs"
+  },
+  "license": "UNLICENSED"
+}

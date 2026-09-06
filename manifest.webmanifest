@@ -1,0 +1,21 @@
+{
+  "name": "PalomoProgram",
+  "short_name": "PalomoProgram",
+  "description": "Teddie's daily training system. Puppy Foundations, 10-16 weeks.",
+  "start_url": "./index.html#/today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0C0F",
+  "theme_color": "#0B0C0F",
+  "icons": [
+    { "src": "./assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./assets/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Respond", "url": "./index.html#/respond", "description": "Response card" },
+    { "name": "Train", "url": "./index.html#/train" }
+  ]
+}
